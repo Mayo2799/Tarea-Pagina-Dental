@@ -102,7 +102,7 @@
 
 /* Contenido de la primera sección*/
 .contenido-principal {
-  background-image: url("https://elcosmonauta.es/wp-content/uploads/2019/02/Las-carillas-dentales-como-solucion-para-tu-dentadura.jpg");
+  background-image: url(/img/Primera-foto.jpg);
   padding-left: 50px;
   align-items: center;
   display: flex;
@@ -295,7 +295,7 @@
 /* El contenedor de la compañía tiene una imagen de fondo con un color azul */
 .contenedor-compañia {
   background-image: linear-gradient(#0c3da8cc, #2769f899),
-    url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqBSBmdld9TL6ux7kUapM7K4CvSWlHoBizMg&usqp=CAU");
+    url(/img/Cuarta-foto.jpg);
 }
 
 /* La tarjeta que contiene los datos de los compañía tenga un 70 porciento del total del elemento */
