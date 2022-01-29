@@ -1,0 +1,373 @@
+/* Para todos los elemento que conpla con lo siguiente */
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Color de fondo del cuerpo de la página */
+.cuerpo-pagina {
+  background-color: #dddddd;
+}
+
+/* Encabezado de la página */
+.encabezado-pagina {
+  background-image: linear-gradient(#0c3da8cc, #2769f899),
+    url(/img/Primera-foto.jpg);
+  padding: 20px;
+  z-index: 1;
+}
+
+/* Elementos que llevan posición relativa */
+.encabezado-pagina,
+.contenedor {
+  position: relative;
+}
+
+/* Fondo en donde la posicion, la repeticion y el tamaño se repite */
+.encabezado-seccion {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* La altura del fondo */
+.encabezado-seccion {
+  height: 400px;
+}
+
+/* Barra de navegación */
+.navegacion-contenedor {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Elementos con mismo color de letra o el icono en blanco */
+.blanco-letra-fondo {
+  color: #ffffff;
+}
+
+/* El icono en la barra de navegacion y la lista menu tengan dirección en fila en una sola linea */
+.icono-logo,
+.lista-menu-navegacion {
+  display: flex;
+  flex-direction: row;
+}
+
+/* El icono tenga un relleno de 50 píxeles a la derecha */
+.icono-izquierda {
+  padding-right: 50px;
+}
+
+/* El título se encuentre al inicio del contenedor que lo contiene y un relleno de 100 píxeles a la derecha */
+.texto-junto-icono {
+  justify-content: flex-start;
+  padding-right: 100px;
+}
+
+/* Palabras en mayúscula  */
+.mayuscula {
+  text-transform: uppercase;
+}
+/* Los elementos de la lista de menú no tenga ningún tipo de estilo y el margen a la izquierda sea de 5 píxeles */
+.lista-menu-navegacion {
+  list-style-type: none;
+  margin-left: 5px;
+}
+
+/* Los elementos del menú tengan 15 píxeles arriba y abajo y 5 píxeles izquierda y derecha */
+.elementos-menu {
+  padding: 15px 5px;
+}
+
+/* Los enlaces no tengan ninguna decoración */
+.enlace-decoracion {
+  text-decoration: none;
+}
+
+/* Los enlaces del menú a la hora de pasar el mouse encima de ellos tenga un borde abajo */
+.enlace-menu:hover {
+  border-bottom: 2px solid #ffffff;
+}
+
+/* El contenedor de toda la página */
+.contenedor {
+  border-bottom: 3px solid #023e8a;
+  bottom: 300px;
+  margin: 0 auto;
+  width: 1250px;
+  z-index: 2;
+}
+
+/* Contenido de la primera sección*/
+.contenido-principal {
+  background-image: url("https://elcosmonauta.es/wp-content/uploads/2019/02/Las-carillas-dentales-como-solucion-para-tu-dentadura.jpg");
+  padding-left: 50px;
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+}
+
+/* Contenedor de la información de la primera sección */
+.info-principal {
+  left: 5%;
+  top: 40%;
+  width: 50%;
+}
+
+/* Tipo y tamaño de fuente */
+.fuente-letra {
+  font-weight: normal;
+  font-size: 25px;
+}
+
+/* El título de la primera sección */
+.texto-principal1 {
+  color: #888787;
+  width: 270px;
+}
+
+/* El subtítulo de la primera sección */
+.texto-principal2 {
+  font-size: 30px;
+}
+
+/* Tenga una anchura de 300 píxeles */
+.anchura-contenedor-foto {
+  width: 300px;
+}
+
+/* El contenedor de la linea horizontal de la primera sección */
+.contenedor-linea {
+  display: flex;
+  padding: 35px 0;
+}
+
+/* Fondo de color en blanco */
+.fondo-color-blanco {
+  background-color: #ffffff;
+}
+
+/* Linea horizontal de la primera sección */
+.linea-horizontal {
+  border: none;
+  height: 3px;
+}
+
+/* La linea blanca tenga una anchura de 50 píxeles */
+.linea1 {
+  width: 50px;
+}
+
+/* La linea gris tenga una anchura de 250 píxeles */
+.linea2 {
+  background-color: #e4e2e2;
+  width: 250px;
+}
+
+/* Botones y unos títulos tengan el tamaño de letra de 20 píxeles */
+.botones,
+.titulos-info {
+  font-size: 20px;
+}
+
+/* Estilos de los botones de cada sección*/
+.botones {
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+
+/* Estilos de los botones de cada sección*/
+.btn-s1-s2-s4-s5 {
+  background-color: #ffffff00;
+}
+
+/* Estilos de los botones de cada sección*/
+.btn-s1-s4 {
+  border: 1px solid #ffffff;
+}
+
+/* Estilos de los botones de cada sección*/
+.btn-s2-s3-s5 {
+  font-weight: bold;
+}
+
+/* Estilos de los botones de cada sección*/
+.btn-s2-s5 {
+  border: 1px solid #000000;
+}
+
+/* Estilos de los botones de cada sección*/
+.btn-s3 {
+  background-color: #023e8a;
+  border: none;
+}
+
+/* Icono de los botones */
+.icono-botones {
+  padding-right: 15px;
+}
+
+/* Que la foto y unas secciones tenga una altura de 354 píxeles */
+.seccion-foto {
+  height: 354px;
+}
+
+/* Sección de bienvenida y noticias el contenido es justificado en espacios entre ellos */
+.bienvenida-noticias {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Foto de bienvenida cumpla con una anchura de 320 píxeles */
+.foto-bienvenida {
+  width: 320px;
+}
+
+/* La tarjeta que contiene los datos tenga un 85 porciento del total del elemento y un relleno de 50 píxeles */
+.tarjeta-bienvenida {
+  flex-basis: 85%;
+  padding: 50px;
+}
+
+/* Palabras que tienen color de letra azul */
+.letra-azul {
+  color: #023e8a;
+}
+
+/* Los párrafos tengan un tamaño de letra de 15 píxeles */
+.parrafos {
+  font-size: 15px;
+}
+
+/* El parrafo de bienvenida y el contenedor del boton tengan un relleno de 25 píxeles arriba */
+.parrafo-bienvenida,
+.contenedor-boton {
+  padding-top: 25px;
+}
+
+/* La flache y el enlace de información tengan color de letra negro */
+.flecha,
+.enlace-info {
+  color: #000000;
+}
+
+/* Algunas secciones y contenedores y fotos tendrán una altura de 250 píxeles */
+.altura-seccion-contenedor-foto {
+  height: 250px;
+}
+
+/* La tarjeta que contiene los datos de la noticias tenga un 85 porciento del total del elemento un color gris, un relleno arriba de 25 píxeles a la derecha de 35 píxeles abajo de 25 píxeles y a la izquierda de 25 píxeles*/
+.info-noticias {
+  background-color: #ccc8c8;
+  flex-basis: 85%;
+  padding: 25px 35px 25px 25px;
+}
+
+/* El título de noticias sea normal su tipo */
+.titulo-noticias {
+  font-weight: normal;
+}
+
+/* El subtitulo de noticias tenga una decoración de linea abajo*/
+.subtitulo-noticias {
+  text-decoration-line: underline;
+}
+
+/* El párrafo de la sección de noticias tenga relleno de 15 píxeles arriba y abajo y de 0 píxeles a la izquierda y derecha */
+.parrafo-noticias {
+  padding: 25px 0;
+}
+
+/* El enlace de la sección de noticias tenga un relleno a la izquierda de 15 píxeles */
+.enlace-noticias {
+  padding-left: 15px;
+}
+
+/* Centrar los elementos en el centro */
+.centrar-info-compañia-btnProducto {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+/* El contenedor de la compañía tiene una imagen de fondo con un color azul */
+.contenedor-compañia {
+  background-image: linear-gradient(#0c3da8cc, #2769f899),
+    url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqBSBmdld9TL6ux7kUapM7K4CvSWlHoBizMg&usqp=CAU");
+}
+
+/* La tarjeta que contiene los datos de los compañía tenga un 70 porciento del total del elemento */
+.info-compañia {
+  flex-basis: 70%;
+}
+
+/* El título de la compañía tenga un tamaño de letra de 28 píxeles */
+.titulo-compañia {
+  font-size: 28px;
+}
+
+/* El subtítulo de compañía sea de un color gris y tenga un ancho de 600 píxeles */
+.subtitulo-compañia {
+  color: #888787;
+  width: 600px;
+}
+
+/* La tarjeta que contiene los datos de los compañía tenga un 30 porciento del total del elemento y justificados al centro */
+.ubicacion-boton-compañia {
+  display: flex;
+  justify-content: center;
+  flex-basis: 30%;
+}
+
+/* La sección de productos y conpañía tengan un relleno de 25 píxeles en todos sus lados */
+.seccion-productos,
+.info-compañia {
+  padding: 25px;
+}
+
+/* La tarjeta que contiene los datos de los productos tenga un 30 porciento del total del elemento y un relleno de 1.5 rem */
+.productos {
+  flex-basis: 30%;
+  padding: 1.5rem;
+}
+
+/* La foto de los productos tengan una altura de 150 píxeles y una anchura de 200 píxeles */
+.foto-productos {
+  height: 150px;
+  width: 200px;
+}
+
+/* La sección de información tenga un margen hacia arriba de -300 píxeles y un rellenado de 30 píxeles en todos sus lados */
+.contenedor-abajo {
+  margin-top: -300px;
+  padding: 30px;
+}
+
+/* Los elementos izquierda sean lineales */
+.elementos-izquierda {
+  display: flex;
+}
+
+/* Un relleno de 0 píxeles arriba y abajo y 15 píxeles a la izquierda y derecha */
+.relleno-informacion {
+  padding: 0px 15px;
+}
+
+/* El párrafo y un título tenga un relleno de 5 píxeles abajo */
+.parrafo-titulo {
+  padding-bottom: 5px;
+}
+
+/* La primera linea vertical tenga un color más oscuro que la segunda y una altura de 25 píxeles */
+.linea-vertical1 {
+  border-left: 3px solid #5d5d5d;
+  height: 25px;
+}
+
+/* La segunda linea vertical tenga un color más claro que la primera y una altura de 140 píxeles */
+.linea-vertical2 {
+  border-left: 3px solid #888888;
+  height: 140px;
+}
