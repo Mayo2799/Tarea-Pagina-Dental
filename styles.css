@@ -14,7 +14,7 @@
 /* Encabezado de la página */
 .encabezado-pagina {
   background-image: linear-gradient(#0c3da8cc, #2769f899),
-    url(/img/Primera-foto.jpg);
+    url(/img/PrimeraFoto.jpg);
   padding: 20px;
   z-index: 1;
 }
@@ -102,7 +102,7 @@
 
 /* Contenido de la primera sección*/
 .contenido-principal {
-  background-image: url(/img/Primera-foto.jpg);
+  background-image: url(/img/PrimeraFoto.jpg);
   padding-left: 50px;
   align-items: center;
   display: flex;
@@ -295,7 +295,7 @@
 /* El contenedor de la compañía tiene una imagen de fondo con un color azul */
 .contenedor-compañia {
   background-image: linear-gradient(#0c3da8cc, #2769f899),
-    url(/img/Cuarta-foto.jpg);
+    url(/img/CuartaFoto.jpg);
 }
 
 /* La tarjeta que contiene los datos de los compañía tenga un 70 porciento del total del elemento */
